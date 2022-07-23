@@ -18,7 +18,8 @@
   <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">EJERCICIOS</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -35,6 +36,9 @@
           <li class="nav-item">
             <a class="nav-link" href="numeros.html">Numeros</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="edad.html">Edad</a>
+          </li>
         </ul>
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -49,23 +53,25 @@
     <div>
       <br>
       <h5>CIUDADES</h5>
-      <input id="ciudad" type="text" >
-    </div>  
-      <br>
-      <br>
-    <div>  
-      <select class="form-select" >
-        <option selected class="text-center" id="vuelo">Vuelos</option>
+      <input id="ciudad" type="text">
+    </div>
+    <br>
+    <br>
+    <div>
+      <select>
+        <br>
+        <option selected class="text-center  " id="vuelo">Vuelos</option>
         <option value="1">7:00 AM</option>
         <option value="2">12:00PM</option>
         <option value="3">3:00PM</option>
       </select>
       <br>
+      <br>
       <button type="button" onclick="getCiudad()">Calcular Tiquete</button>
       <input id="resultado" type="text">
     </div>
     <br>
-    
+
   </form>
 </body>
 
